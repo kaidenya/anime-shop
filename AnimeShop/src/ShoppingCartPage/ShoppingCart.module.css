@@ -1,0 +1,94 @@
+.cartBody {
+    display: flex;
+    justify-content: center;
+    font-family: "Comic Neue", cursive;
+    min-height: 100vh;
+}
+.cartMainBody {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.cartMainBody > div:first-child {
+    margin: 10px;
+    font-size: 25px;
+}
+.orderSummary {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    transition: 0.2s ease;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.summeryBox > div:nth-child(3) {
+    border-bottom: 1px solid #22d8cc;
+}
+.summeryBox > div:last-child {
+    color: #088178;
+}
+.summeryBox > div {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.summeryBox div > div:first-child {
+    flex-grow: 1;
+}
+
+.btnBody {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+}
+.orderButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #088178;
+    color: #ffffff;
+    font-size: 16px;
+    width: 50%;
+    font-family: "Comic Neue", cursive;
+    cursor: pointer;
+}
+.orderButton:hover {
+    background-color: #22d8cc;
+}
+.orderButton:active {
+    background-color: #1fbcb1;
+}
+
+.itemInCart {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin: 5px;
+    transition: 0.2s ease;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.itemInCart img {
+    margin: 5px;
+    border-radius: 20px;
+    width: 120px;
+}
+.itemInCart div {
+    margin: 5px;
+}
+.itemInCart div > span:nth-last-child(-n + 2) {
+    color: #088178;
+    cursor: pointer;
+}
+.itemInCart div > span:nth-last-child(-n + 2):hover {
+    color: #22d8cc;
+}
+
+@media (max-width: 500px) {
+    .cartMainBody {
+        max-width: 90%;
+    }
+}

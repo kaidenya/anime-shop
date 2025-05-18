@@ -1,0 +1,36 @@
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group__label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.form-group input[type="text"] {
+    border: 1px solid black;
+    color: white;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: black;
+    display: inline-block;
+}
+
+.apply-btn {
+    padding-left: 20px;
+    text-decoration: underline;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.coupon-wrapper {
+    display: block;
+    margin: auto;
+}

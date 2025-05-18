@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.product1 {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+}
+
+.proContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pro {
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.pro:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.35);
+}
+
+.pro span {
+    color: #606063;
+    font-size: 14px;
+}
+
+.pro img {
+    height: 300px;
+    border-radius: 20px;
+}
+
+.pro h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.pro h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #4f4e4e;
+}
+
+p {
+    font-size: 17px;
+}
+
+.pro .shoppingCart img {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 55px;
+    background-color: #e8f6ea;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    bottom: 20px;
+    right: 10px;
+}
+
+.shopInfo {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    background-color: #e3e6f3;
+    padding: 15px;
+}
+
+.shopInfo h1 {
+    color: #088178;
+}
+
+.shopInfo p {
+    font-size: 17px;
+}
+
+.buttonContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.viewAllButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #88c5e6;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.viewAllButton:hover {
+    background-color: #66b0d6;
+}
